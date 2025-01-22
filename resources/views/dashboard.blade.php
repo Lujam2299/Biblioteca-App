@@ -5,13 +5,18 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
-                </div>
-            </div>
+    <div class="flex max-w-7xl mt-12 max-h-[450px] rounded mx-auto bg-white-300" ><!--Revisar height-->
+        <div class="w-1/5 my-5 mt-12 mx-10 h-[200px] rounded-lg bg-blue-500">
+            Libros
+        </div>
+        <div class="w-1/5 my-5 mt-12 mx-6 h-[200px] rounded-lg bg-green-500">
+            Mis Préstamos
+        </div>
+        <div class="w-1/5 my-5 mt-12 mx-6 h-[200px] rounded-lg bg-red-500">
+            Adeudos
+        </div>
+        <div class="w-1/5 my-5 mt-12 mx-6 h-[200px] rounded-lg bg-gray-500">
+            Mi Perfil
         </div>
     </div>
 </x-app-layout>
